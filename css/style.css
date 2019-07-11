@@ -1,0 +1,352 @@
+/* =========================================
+                Html, Body
+============================================ */
+
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+    color: #212226;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: #fff;
+    overflow: hidden;
+}
+
+
+/* =========================================
+                Preloader
+============================================ */
+
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url("../img/preloader/preloader.gif");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+
+/* =========================================
+                Home
+============================================ */
+.hero {
+    float: left;
+    width: 100%;
+    height: 900px;
+    background: url(../img/mainheader.jpg) no-repeat center center;
+    /* background-attachment: fixed; */
+    background-size: 100% 76%;
+    background-position-y: top;
+    margin: 0;
+    display: block;
+    clear: both;
+    position: relative;
+}
+
+.caption h1 {
+    font-size: 46px;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    margin: 7% 0 0 7%;
+    max-width: 500px;
+}
+
+/* =========================================
+                Main
+============================================ */
+.main {
+    background:transparent !important;
+    position: relative;
+    top: -190px;
+}
+.main h1{
+    color: #0f0f0f;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+}
+
+.main p {
+    font-size: 24px;
+    text-align: center;
+    color: #0f0f0f;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+}
+
+#left-image img{
+    width: 100%;
+}
+
+#right-caption h3 {
+    font-size:24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#ee4023;
+}
+
+#right-caption p {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color:#0f0f0f;
+    text-align: left;
+    width: 84%;
+}
+
+p.button_:hover {
+    color: #fff !important;
+    background: #ee4023;
+    width: 50px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+p.button_ {
+    font-size: 20px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal !important;
+    color: #ee4023 !important;
+    border: 2px solid #ee4023;
+    padding: 1px 17px;
+    width: 236px !important;
+    transition: all 0.5s;
+}
+
+#right-image img{
+    width: 100%;
+}
+
+#left-caption {
+    padding-left: 9%;
+}
+
+#left-caption h3 {
+    font-size:24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#ee4023;
+}
+
+#left-caption p {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color:#0f0f0f;
+    text-align: left;
+    width: 84%;
+    padding-left: 10;
+}
+/* =========================================
+            newsletter
+============================================ */
+.home-newsletter {
+    padding: 80px 0;
+    background:url(../img/closing-photo.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat:no-repeat;
+    height: 950px;
+    position: relative;
+    top: -135px;
+}
+    
+.home-newsletter .single {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 70px 38px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    position: relative;
+    top: 288px;
+    background: #00000045;
+}
+    
+.home-newsletter .single h2 {
+    font-size: 36px;
+    color: white;
+    text-transform: uppercase;
+    /* margin-bottom: 40px; */
+}
+    
+.home-newsletter .single p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+    
+.home-newsletter .single .form-control {
+    height: 45px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    /* border-radius: 20px 0 0 20px; */
+}
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f; }
+    .home-newsletter .single .btn {
+    min-height: 45px;
+    /* border-radius: 0 20px 20px 0; */
+    background: #ee4023;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+button.btn.btn-theme:hover {
+    color: #ee4023;
+    background: #ffffff00;
+    border: 1px solid #ee4023;
+}
+
+.input_pad {
+    padding:0 90px;
+}
+/* =========================================
+                Footer
+============================================ */
+
+footer {
+    background: url(../img/geometric-band.jpg);
+    padding: 30px;
+    background-size: cover;
+    height: 130px;
+    margin-top: -135px;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+}
+
+.caption_footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.caption_footer ul{
+    display: -webkit-inline-box;
+    list-style: none;
+}
+
+.caption_footer ul li {
+    padding-left: 19px;
+    color: #fff;
+    position: relative;
+    top: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    font-size:16px;
+}
+
+.first::after {
+    content: "";
+    color: #fff;
+    border-right: 1px solid #fff;
+    /* width: 10px; */
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    top: 1px;
+}
+
+.second::after {
+    content: "";
+    color: #fff;
+    border-right: 1px solid #fff;
+    /* width: 10px; */
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    top: 1px;
+}
+
+.caption_footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* =========================================
+                RESPONSIVE
+============================================ */
+@media only screen and (max-width: 765px) {
+    body {
+        overflow-x: hidden;
+    }
+    .hero {
+        background-size: cover;
+    }
+
+    .caption {
+        position: absolute;
+        top: 95px;
+    }
+    
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    div#right-caption {
+        padding-left:44px;
+    }
+
+    #right-caption p,
+    #left-caption p {
+        width: 100%;
+        padding-right: 44px;
+    }
+
+    .input_pad {
+        padding:0 0;
+    }
+}
+
+/* =========================================
+             override bootstrap
+============================================ */
+@media (min-width: 1200px) {
+    .container {
+    width: 1300px;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    padding: 0 !important;
+    }
+}
+
+
+
+/*jQuery*/
+.hidden {
+    display: none;
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.c_p {
+    padding-left:9%;
+}
